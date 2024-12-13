@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trecia's Personal Portfolio</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #3c3f4c;
+            margin: 0;
+            color: white;
+        }
+
+        /* Header Section */
+        header {
+            background-color: black;
+            color: #f4a42c;
+            text-align: center;
+            padding: 50px 20px;
+            background-image: url('bg main.png'); /* Optional: Add a Haikyuu-themed background */
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        header h1 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 60px;
+            margin: 0;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        /* Navigation Bar Styles */
+        .top-nav {
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            background-color: #080808;
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            height: 50px;
+            padding-right: 40px;
+        }
+
+        .top-nav a {
+            font-family: 'Poppins', sans-serif;
+            color: #f4a42c;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 14px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .top-nav img {
+            height: 30px;
+            margin-right: auto;
+            margin-left: 60px;
+
+        }
+        .top-nav a:hover {
+            color: white;
+        }
+
+        p {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            font-size: 18px;
+            margin: 20px auto;
+            max-width: 800px;
+            line-height: 1.6;
+            margin-top: 50px;
+        }
+
+        /* Navigation Section Styles */
+        nav {
+            font-family: 'Poppins', sans-serif;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            margin: 40px 20px;
+            text-align: center;
+        }
+
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .nav-item img {
+            width: 175px;
+            height: 180px;
+            border-radius: 15px;
+            object-fit: cover;
+            border: 2px solid #f4a42c;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .nav-button {
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #f4a42c;
+            border-radius: 5px;
+            color: black;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+            font-size: 14px;
+            transition: all 0.3s ease;
+            width: 100%;
+            max-width: 150px;
+        }
+
+        .nav-button:hover {
+            background-color: white;
+            color: black;
+            transform: scale(1.05);
+        }
+
+        /* Footer Section */
+        footer {
+            font-family: 'Poppins', sans-serif;
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+            margin-top: 70px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Top Navigation Bar -->
+    <div class="top-nav">
+        <img src="trecialogo.png">
+        <a href="index.html">HOME</a>
+        <a href="personalinfo.html">PERSONAL INFO</a>
+        <a href="education.html">EDUCATION</a>
+        <a href="skills and training.html">SKILLS AND TRAINING</a>
+        <a href="feedback.html">FEEDBACK</a>
+        <a href="project.html">PROJECTS</a>
+        <a href="photogallery.html">PHOTO GALLERY</a>
+    </div>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Trecia's Personal Portfolio!!</h1>
+    </header>
+
+    <p>
+        Welcome to my Haikyuu!!-themed personal portfolio website. Here, you'll find information about me, my educational
+        background, skills, and projects. Inspired by the teamwork and determination of the Karasuno volleyball team!
+    </p>
+
+    <!-- Navigation Section -->
+    <nav>
+        <div class="nav-item">
+            <img src="homeicon.png" alt="Home Icon">
+            <a href="index.html" class="nav-button">Home</a>
+        </div>
+        <div class="nav-item">
+            <img src="personalinfoicon.png" alt="Personal Info Icon">
+            <a href="personalinfo.html" class="nav-button">Personal Info</a>
+        </div>
+        <div class="nav-item">
+            <img src="educationicon.png" alt="Education Icon">
+            <a href="education.html" class="nav-button">Education</a>
+        </div>
+        <div class="nav-item">
+            <img src="skillsicon.png" alt="Skills Icon">
+            <a href="skills and training.html" class="nav-button">Skills and Training</a>
+        </div>
+        <div class="nav-item">
+            <img src="feedbackicon.PNG" alt="Feedback Icon">
+            <a href="feedback.html" class="nav-button">Feedback Page</a>
+        </div>
+        <div class="nav-item">
+            <img src="projecticon.PNG" alt="Project Icon">
+            <a href="project.html" class="nav-button">Project Page</a>
+        </div>
+        <div class="nav-item">
+            <img src="photogalleryicon.PNG" alt="Photo Gallery Icon">
+            <a href="photogallery.html" class="nav-button">Photo Gallery</a>
+        </div>
+    </nav>
+
+    <!-- Footer Section -->
+    <footer>
+        &copy; 2024 Trecia Mae Dacuba. Inspired by Haikyuu!! | Fly high!
+    </footer>
+</body>
+
+</html>
